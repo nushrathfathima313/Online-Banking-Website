@@ -6,7 +6,74 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Account | Online Banking Website</title>
         <link href="../Account.css" rel="stylesheet">
-       
+       <style>
+@import url("../home.css");
+
+body {
+    background-image: url("C:/Users/NUSHRATH/Pictures/Aboutus.jpeg");
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover; /* or 'contain' depending on how you want the image to fit */
+    background-position: center;
+}
+
+#header {
+    text-align: center;
+    color: black;
+}
+
+#header img {
+    height: 75px;
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+#pic img {
+    position: absolute;
+    top: 150px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for the width of the image */
+    border: 5px solid white;
+    border-radius: 30px;
+    height: 200px; /* Use either this height or the one below */
+    width: 200px;
+    text-align: center;
+}
+
+#pic p {
+    position: relative;
+    top: 300px; /* Adjust this value to move the paragraph down */
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bolder;
+    text-align: center; /* Center the text */
+}
+
+#info {
+    position: relative; /* Changed from absolute to relative */
+    top: 300px; /* Adjust this value as needed */
+    width: 20%;
+    margin: 0 auto; /* Center the info block */
+}
+
+input {
+    border: none;
+    border-radius: 30px;
+    border-bottom: 2px solid black;
+}
+
+label {
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+</style>
     </head>
 
     <body>
