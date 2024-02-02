@@ -1,0 +1,31 @@
+@import url("../home.css");
+#int{
+    background-image: url("../Images/intMoney.jpg");
+    height:600px;
+    width:800px;
+    background-size:800px 600px;
+    margin: 30px auto;
+}
+#header img{
+    height:75px;
+    width:300px;
+    border-radius:20px;
+    position:absolute;
+    top:10px;
+    left:25px;
+}
+#header{
+    text-align: center;
+    color: black;
+}
+ div{
+    text-align: center;
+    color: black;
+}
+body {
+    background-image: url("C:/Users/NUSHRATH/Pictures/dep.jpg");
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size: cover; /* or use 'contain' depending on how you want the image to fit */
+    background-position: center;
+}
